@@ -10,7 +10,7 @@ int countHelium(vector<int> containerStructure) {
     auto start = chrono::steady_clock::now();
     int totalCount = 0;
     int leftBound = 0;
-    int rightBound = containerStructure.size() - 1;
+    int rightBound = (int) containerStructure.size() - 1;
     int maxLeftBoundReached = false;
     int maxRightBoundReached = false;
     while (leftBound < rightBound) {
